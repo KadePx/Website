@@ -1,0 +1,197 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: black;
+    opacity: .6;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    vertical-align: top;
+}
+body{
+    width: 100%;
+    vertical-align: top;
+    background-color: blue;
+   background: url(http://4globetrotters.world/wp-content/uploads/2015/08/Light-Grey-Background.jpg) repeat-y; 
+   background-size: cover;
+}
+li {
+    float: left;
+}
+html { 
+
+background-color: black; 
+
+} 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.me{
+    float: left;
+    font-size: 3em;
+    color: #ff6600;
+    vertical-align: middle;
+    padding-top: 10px;
+
+}
+
+li a:hover {
+    color:#9fdf9f;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 60em;
+    margin: 0;
+      background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(awesome.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: bottom;
+        padding-top: 1px;
+    margin-top: -1px;
+}
+.header h1 {
+    font-size: 5em;
+    color: white;
+        font-family: 'Work Sans',sans-serif;
+        margin-top: 15%;
+        text-align:left;
+        margin-left: 5%;
+}
+.header h2 {
+    font-size: 2em;
+    color: #9fdf9f;
+        font-family: 'Work Sans',sans-serif;
+        margin-top: 2%;
+        text-align:left;
+        margin-left: 7.5%;
+}
+.container{
+    margin-top: 3.5%;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 3.5%;
+    width: 100em;
+}
+.info1{
+    width: 32.333%;
+    display: inline-block;
+    background-color: black;
+    height: 50em;
+      background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(projects.jpg);
+    background-size: cover;
+ vertical-align:top; 
+ margin-right: 0;
+
+}
+ .container h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 5em;
+    color:#ff6600;
+    text-shadow: 1px 1px black;
+}
+.container p{
+    color: white;
+    opacity: 0;
+    font-size: 1.75em;
+    margin-top: 10%;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.info2{
+    width: 32.333%;
+    display: inline-block;
+    background-color: blue;
+    height: 50em;
+          background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(about.jpg);
+    background-size: cover;
+    margin-top: 0;
+    margin-left: 0%;
+    margin-right: 0;
+
+
+}
+
+.info3{
+    width: 32.333%;
+    display: inline-block;
+    background-color: red;
+    height: 50em;
+              background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(rocket.jpg);
+    background-size: cover;
+    margin-left: 0%;
+}
+
+
+.info1:hover{
+     background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(projects.jpg);
+
+
+} 
+.info1:hover p{
+    opacity: 1;
+}
+.info2:hover{
+     background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(about.jpg);
+    background-size: cover;
+
+}
+.info3:hover{
+     background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(rocket2.jpg);
+    background-size: cover;
+}
+.me:hover{
+    color: #ff6600;
+}
